@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-  free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="images/logo1.png" class="logo" alt="Fayis">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#about">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           </nav>
+             <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi,I'm <span>Fayis</span><br>KT From Kerala</h1>
+             </div>
+
+
+
+        </div>
+    </div>
+
+    <!-----about--->
+
+
+    <div id="about">
+        
+         <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/IMG_123456.jpg" alt=""> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! I’m Fayis KT. A professional Web Designer and SEO specialist since from last 1 years. I have started my career with a small attractive static website.  Currently, I am working on ssf jamia website.</p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links  active-link" onclick="opentab('Education')">Education</p>
+                 <!----       <p class="tab-links" onclick="opentab('Skills')">Skills</p> -->
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>MSc(Mathematics with CS)</li>
+                            <li><span>2021</span><br>BSc(Mathematics)</li>
+                            <li><span>2018</span><br>Intermediate</li>
+                            <li><span>2016</span><br>High school</li>
+                            
+                        </ul>
+                    </div>
+                  <!---- <div class="tab-contents " id="Skills">
+                        <ul>
+                            <li><span>Web Designer</span><br>create and maintain websites</li>
+                            <li><span>SEO Specialist</span><br>Develop optimization strategies that increase the company's website search engine results rankings.</li>
+                        </ul>
+                    </div> -->
+
+                </div>
+            </div>
+         </div>
+    </div> 
+
+  <!-----
+    --skills--
+    <div style="width: 100%;" class="conatiner">
+        <div class="row">  
+    
+    <div class="skills-container">
+        <div class="skills-heading">Professional Skills</div>
+      
+        <div class="1stskilldiv">
+        <div class="skill">
+            <span class="skill-name">Web Development</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">Graphic Design</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <span class="skill-name">Project Management</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        </div>
+        <div class="2skilldiv">
+        <div class="skill">
+            <span class="skill-name">Project Management</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Project Management</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Project Management</span>
+            <div class="skill-bar">
+                <div class="skill-progress"></div>
+            </div>
+        </div>
+        </div>
+        
+        
+      </div>
+       </div>
+
+
+       
+
+    </div> 
+-->
+
+    
+    <!--contact section-->
+
+    <div id="contact">
+          <div class="container">
+               <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fab-solid fa-envelope"></i>muhammedfayiskt3@gmail.com</p>
+                   <p><i class="fab fa-phone"></i>9567220232</p>
+                   <div class="social-icons">
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31316.256327284726!2d75.94564867059073!3d11.148187803813165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64ee2471144f5%3A0x8692de4117c315d!2sKondotty%2C%20Kerala%20673638!5e0!3m2!1sen!2sin!4v1699509014027!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!----  <a href=""><i class="fab fa-facebook-f"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                    -->
+                   </div>
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm" action="submit.php" method="post" >
+                    
+                        <input  type="text" id="name" placeholder="Your Name" name="name"><br>
+                        <span style="color: red;" id="nameError" class="error"></span>
+                        <br>
+                    <!----    <input  type="text" id="name" placeholder="Last Name" name="name"><br>
+                        <span style="color: red;" id="nameError" class="error"></span>
+                        <br> -->
+                      
+                        <input  type="email" id="email" placeholder="Your Email" name="email"><br>
+                        <span style="color: red;" id="emailError" class="error"></span>
+                        <br>
+                
+                        
+                        <input type="tel" id="phone" placeholder="Phone Number" name="phone"><br>
+                        <span style="color: red;" id="phoneError" class="error"></span>
+                        <br>
+
+                        <textarea name="textarea" id="" placeholder="Type message..." rows="6"></textarea>
+                
+                        <button class="btn btn2" type="button" value="submit" onclick="return validateForm()" >Submit</button>
+                    </form>
+                </div>
+               </div>
+          </div>
+    </div>
+
+
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+
+            var nameRegex = /^[A-Za-z\s]+$/;
+            var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            var phoneRegex = /^[0-9]{10}$/;
+
+            var nameError = document.getElementById("nameError");
+            var emailError = document.getElementById("emailError");
+            var phoneError = document.getElementById("phoneError");
+
+            nameError.textContent = "";
+            emailError.textContent = "";
+            phoneError.textContent = "";
+
+            if (!name.match(nameRegex)) {
+                nameError.textContent = "Please enter a valid name.";
+                return false;
+            }
+
+            if (!email.match(emailRegex)) {
+                emailError.textContent = "Please enter a valid email address.";
+                return false;
+            }
+
+            if (!phone.match(phoneRegex)) {
+                phoneError.textContent = "Please enter a valid 10-digit phone number.";
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+
+
+   <!-- <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTargety.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> -->
+
+
+</body>
+</html>
